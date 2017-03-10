@@ -1,0 +1,37 @@
+---
+BuySteps:
+  enter my shop and buy sth:
+    - TestUIAtoms | enter my tab
+    - TestUIAtoms | enter test entry
+    - TestUIAtoms | enter my shop
+    - TestUIAtoms | enter an hot sale's information
+    - TestUIAtoms | buy now
+    - TestUIAtoms | submit order
+
+  fake pay the order:
+    - ActionAtoms | backward
+    - ActionAtoms | close webview
+    - ActionAtoms | return homepage
+    - TestUIAtoms | enter my tab
+    - TestUIAtoms | enter test entry
+    - TestUIAtoms | order management
+    - TestUIAtoms | my orders
+    - ActionAtoms | fake pay:
+        params:
+          idid: ActionAtoms | get orderId
+
+  direct buy:
+    - TestUIAtoms | enter my tab
+    - TestUIAtoms | enter test entry
+    - TestUIAtoms | order management
+    - TestUIAtoms | my orders
+    - ActionAtoms | fake pay:
+        params:
+          idid: ActionAtoms | get orderId
+
+  test back and go home:
+    - TestUIAtoms | enter my tab
+    - TestUIAtoms | enter test entry
+    - TestUIAtoms | enter my shop
+    - TestUIAtoms | enter an hot sale's information
+    - ActionAtoms | return homepage

@@ -1,0 +1,14 @@
+---
+#一群相关的测试用例:
+#
+#  config:
+#    timeout: 200000
+#    caps: ios/caps.json
+#
+#  1st of testcases:
+#    - DemoSteps | 1st of steps
+#    - DemoSteps | 2nd of steps
+#
+#  2nd of testcases:
+#      - DemoSteps | 1st of steps
+#      - DemoSteps | 2nd of steps

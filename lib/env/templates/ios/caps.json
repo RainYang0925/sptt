@@ -1,0 +1,13 @@
+{
+  "appium-version": "1.6.3",
+  "description": "appium@1.6.3必须运行在xcode8和OSX10.10以上的环境中",
+  "more setting": "https://github.com/appium/appium/blob/master/docs/cn/writing-running-appium/caps.cn.md",
+  "platformName": "iOS",
+  "platformVersion": "10.2",
+  "deviceName": "iPhone 7",
+  "autoAcceptAlerts": true,
+  "automationName": "xcuitest",
+  "newCommandTimeout": 3600,
+  "noReset": true,
+  "app": ""
+}

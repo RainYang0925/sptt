@@ -1,0 +1,11 @@
+---
+交易链路:
+  config:
+    timeout: 200000
+    caps: ios/caps.json
+  下订单流程:
+    - LoginSteps | login
+    - BuySteps | enter my shop and buy sth
+
+  支付流程:
+    - BuySteps | fake pay the order

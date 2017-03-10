@@ -1,0 +1,27 @@
+---
+LoginAtoms:
+  start notification alert:
+    ui_id: Allow
+    ui_action: click
+    expectation_id: “达人店” Would Like to Send You Notifications
+    expectation_type: none
+
+  input username:
+    ui_xpath: //XCUIElementTypeOther/XCUIElementTypeTextField[1]
+    ui_action: type
+    data: showjohstp
+
+  input password:
+    ui_xpath: //XCUIElementTypeOther/XCUIElementTypeTextField[2]
+    ui_action: type
+    data: showjoy123
+
+  hide keybord:
+    ui_name: 完成
+    ui_action: click
+
+  login:
+    ui_name: 登录
+    ui_action: click
+    expectation_xpath: //XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[4]
+    expectation_type: exist

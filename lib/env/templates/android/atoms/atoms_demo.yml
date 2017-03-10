@@ -1,0 +1,12 @@
+---
+#DemoAtoms:
+#  1st of atoms:
+#    ui_id: identifier
+#    ui_action: click
+#    expectation_id: 首页
+#    expectation_type: none
+#  2nd of atoms:
+#    ui_id: identifier
+#    ui_action: click
+#    expectation_id: 首页
+#    expectation_type: none
