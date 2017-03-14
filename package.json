@@ -2,7 +2,9 @@
   "name": "sptt",
   "version": "0.0.1",
   "description": "The Special Tool of Test",
-  "main": "bin/index.js",
+  "bin": {
+    "sptt": "bin/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git@git.showjoy.net:yuxiu/sptt.git"

@@ -21,7 +21,7 @@ ActionAtoms:
     data:
       startX: 275
       startY: 700
-      offsetX: 275
+      offsetX: 0
       offsetY: -500
       duration: 400
 
@@ -36,3 +36,14 @@ ActionAtoms:
       headers:
         cookie:
           tgc=bsK6KS0wQi;um_remember="5385980EA93F8265018C9FCD285B8ED7:2E175E4D7F73DDD96CC2524B965E12A6:CC1F08AA5F8A0FA68B8D3532EA3C68AC";
+
+  fake pay1:
+      ui_action: net
+      data:
+        url: http://shopappserver.showjoy.net/Fake_Pay
+        qs:
+          orderNumber: {{idid}}
+        headers:
+          cookie:
+            tgc=bsK6KS0wQi;um_remember="5385980EA93F8265018C9FCD285B8ED7:2E175E4D7F73DDD96CC2524B965E12A6:CC1F08AA5F8A0FA68B8D3532EA3C68AC";
+          x-requst: {{requestId}}
