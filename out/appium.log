@@ -1,0 +1,409 @@
+[Appium] Welcome to Appium v1.6.3 (REV d9e105042ea59fa58ff105957e196685900abd46)
+[Appium] Appium REST http interface listener started on 0.0.0.0:4723
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"appium-version":"1.6.3","platformName":"iOS","platformVersion":"10.2","deviceName":"iPhone 7","autoAcceptAlerts":true,"automationName":"xcuitest","newCommandTimeout":3600,"noReset":true,"app":"/Users/showjoy/Library/Developer/Xcode/DerivedData/DaRenShop-aisxxdloxwxcqmdjhesjxorxojoc/Build/Products/Debug-iphonesimulator/DaRenShop.app"}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"appium-version":"1.6.3","platformName":"iOS","platformVersion":"10.2","deviceName":"iPhone 7","autoAcceptAlerts":true,"automationName":"xcuitest","newCommandTimeout":3600,"noReset":true,"app":"/Users/showjoy/Library/Developer/Xcode/DerivedData/DaRenShop-aisxxdloxwxcqmdjhesjxorxojoc/Build/Products/Debug-iphonesimulator/DaRenShop.app"},null,null,null,null]
+[Appium] Creating new XCUITestDriver session
+[Appium] Capabilities:
+[Appium]   appium-version: '1.6.3'
+[Appium]   platformName: 'iOS'
+[Appium]   platformVersion: '10.2'
+[Appium]   deviceName: 'iPhone 7'
+[Appium]   autoAcceptAlerts: true
+[Appium]   automationName: 'xcuitest'
+[Appium]   newCommandTimeout: 3600
+[Appium]   noReset: true
+[Appium]   app: '/Users/showjoy/Library/Developer/Xcode/DerivedData/DaRenShop-aisxxdloxwxcqmdjhesjxorxojoc/Build/Products/Debug-iphonesimulator/DaRenShop.app'
+[debug] [XCUITest] XCUITestDriver version: 2.4.2
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: appium-version.
+[BaseDriver] Session created with session id: 6bbef80e-0075-4f0d-919a-43dfa95f4fd8
+[debug] [XCUITest] Xcode version set to '8.2.1'
+[debug] [XCUITest] iOS SDK Version set to '10.2'
+[iOSSim] Constructing iOS simulator for Xcode version 8.2.1 with udid 'E226CF84-CBF4-490C-A17F-6D384D47DF7A'
+[XCUITest] Determining device to run tests on: udid: 'E226CF84-CBF4-490C-A17F-6D384D47DF7A', real device: false
+[BaseDriver] Using local app '/Users/showjoy/Library/Developer/Xcode/DerivedData/DaRenShop-aisxxdloxwxcqmdjhesjxorxojoc/Build/Products/Debug-iphonesimulator/DaRenShop.app'
+[debug] [XCUITest] Checking whether app '/Users/showjoy/Library/Developer/Xcode/DerivedData/DaRenShop-aisxxdloxwxcqmdjhesjxorxojoc/Build/Products/Debug-iphonesimulator/DaRenShop.app' is actually present
+[debug] [XCUITest] App is present
+[debug] [ios-app-utils] Getting bundle ID from app '/Users/showjoy/Library/Developer/Xcode/DerivedData/DaRenShop-aisxxdloxwxcqmdjhesjxorxojoc/Build/Products/Debug-iphonesimulator/DaRenShop.app': 'com.showjoy.shop'
+[debug] [iOSLog] Starting iOS 10.2 simulator log capture
+[debug] [iOSLog] System log path: /Users/showjoy/Library/Logs/CoreSimulator/E226CF84-CBF4-490C-A17F-6D384D47DF7A/system.log
+[XCUITest] Setting up simulator
+[debug] [iOS] No reason to set locale
+[debug] [iOS] No iOS / app preferences to set
+[XCUITest] Simulator with udid 'E226CF84-CBF4-490C-A17F-6D384D47DF7A' already booted
+[debug] [XCUITest] Installing app '/Users/showjoy/Library/Developer/Xcode/DerivedData/DaRenShop-aisxxdloxwxcqmdjhesjxorxojoc/Build/Products/Debug-iphonesimulator/DaRenShop.app' on device
+[XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+[XCUITest] Launching WebDriverAgent on the device
+[debug] [XCUITest] Carthage found: /usr/local/bin/carthage
+[debug] [XCUITest] Killing hanging processes
+[debug] [XCUITest] Beginning test with command 'xcodebuild build-for-testing test-without-building -project /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination id=E226CF84-CBF4-490C-A17F-6D384D47DF7A -configuration Debug' in directory '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Waiting for WebDriverAgent to start on device
+[debug] [XCUITest] Log file for xcodebuild test: /Users/showjoy/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Logs/Test/323FC52A-589C-4FD2-A150-CFE6B35F0C55/Session-WebDriverAgentRunner-2017-03-17_170924-aNLzxq.log
+[debug] [WebDriverAgent] Sim: Mar 17 17:09:24 yuxius-MB CoreSimulatorBridge[62363]: Requesting installation of file:///Users/showjoy/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphonesimulator/WebDriverAgentRunner-Runner.app/ with options: {
+[debug] [WebDriverAgent] Sim: 	    CFBundleIdentifier = "com.apple.test.WebDriverAgentRunner-Runner";
+[debug] [WebDriverAgent] Sim: 	    PackageType = Developer;
+[debug] [WebDriverAgent] Sim: 	    SimulatorRootPath = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+[debug] [WebDriverAgent] Sim: 	    SimulatorUserPath = "/Users/showjoy/Library/Developer/CoreSimulator/Devices/E226CF84-CBF4-490C-A17F-6D384D47DF7A/data";
+[debug] [WebDriverAgent] Sim: 	}
+[debug] [WebDriverAgent] Sim: Mar 17 17:09:30 yuxius-MB CoreSimulatorBridge[62363]: Requesting launch of com.apple.test.WebDriverAgentRunner-Runner with options: {
+[debug] [WebDriverAgent] Sim: 	    arguments =     (
+[debug] [WebDriverAgent] Sim: 	        "-NSTreatUnknownArgumentsAsOpen",
+[debug] [WebDriverAgent] Sim: 	        NO,
+[debug] [WebDriverAgent] Sim: 	        "-ApplePersistenceIgnoreState",
+[debug] [WebDriverAgent] Sim: 	        YES
+[debug] [WebDriverAgent] Sim: 	    );
+[debug] [WebDriverAgent] Sim: 	    environment =     {
+[debug] [WebDriverAgent] Sim: 	        "DTX_CONNECTION_SERVICES_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework";
+[debug] [WebDriverAgent] Sim: 	        "DYLD_FRAMEWORK_PATH" = "/Users/showjoy/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphonesimulator:/Users/showjoy/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+[debug] [WebDriverAgent] Sim: 	        "DYLD_LIBRARY_PATH" = "/Users/showjoy/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphonesimulator:/Users/showjoy/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+[debug] [WebDriverAgent] Sim: 	        NSUnbufferedIO = YES;
+[debug] [WebDriverAgent] Sim: 	        "OS_ACTIVITY_DT_MODE" = YES;
+[debug] [WebDriverAgent] Sim: 	        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+[debug] [WebDriverAgent] Sim: 	        XCTestConfigurationFilePath = "/var/folders/h6/nflk9jrs5xbbn5jmh79f63ww0000gn/T/com.apple.dt.XCTest/911432C4-E9BF-4AA5-9D85-3B8A970B9AFA/remote-container/tmp/WebDriverAgentRunner-911432C4-E9BF-4AA5-9D85-3B8A970B9AFA.xctestconfiguration";
+[debug] [WebDriverAgent] Sim: 	        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/showjoy/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphonesimulator";
+[debug] [WebDriverAgent] Sim: 	        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/showjoy/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphonesimulator";
+[debug] [WebDriverAgent] Sim: 	        "__XPC_DYLD_LIBRARY_PATH" = "/Users/showjoy/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphonesimulator";
+[debug] [WebDriverAgent] Sim: 	    };
+[debug] [WebDriverAgent] Sim: 	    stderr = "/dev/ttys003";
+[debug] [WebDriverAgent] Sim: 	    stdout = "/dev/ttys003";
+[debug] [WebDriverAgent] Sim: 	    "wait_for_debugger" = 0;
+[debug] [WebDriverAgent] Sim: 	}
+[debug] [WebDriverAgent] Sim: Mar 17 17:09:30 yuxius-MB CoreSimulatorBridge[62363]: Beginning launch sequence for bundle 'com.apple.test.WebDriverAgentRunner-Runner'
+[debug] [WebDriverAgent] Sim: 		retryTimeout: 120.000000 (default write com.apple.CoreSimulatorBridge LaunchRetryTimeout <value>)
+[debug] [WebDriverAgent] Sim: 		bootTimeout: 300.000000 (default write com.apple.CoreSimulatorBridge BootRetryTimeout <value>)
+[debug] [WebDriverAgent] Sim: 		bootLeeway: 120.000000 (default write com.apple.CoreSimulatorBridge BootLeeway <value>)
+[debug] [WebDriverAgent] Sim: 		Note: Use 'xcrun simctl spawn booted defaults write <domain> <key> <value>' to modify defaults in the booted Simulator device.
+[debug] [WebDriverAgent] Sim: 	Simulator booted at: 2017-03-16 08:22:49 +0000
+[debug] [WebDriverAgent] Sim: 	Current time: 2017-03-17 09:09:30 +0000
+[debug] [WebDriverAgent] Sim: 	Within boot leeway: NO
+[debug] [WebDriverAgent] Sim: Mar 17 17:09:30 yuxius-MB CoreSimulatorBridge[62363]: Launch attempt #0 for bundle 'com.apple.test.WebDriverAgentRunner-Runner', have been trying to launch for 0 seconds. Modern launch services = YES
+[debug] [WebDriverAgent] Sim: Mar 17 17:09:30 yuxius-MB CoreSimulatorBridge[62363]: Got LSBundleProxy for 'com.apple.test.WebDriverAgentRunner-Runner', sequenceNumber 920, cacheGUID 41ED0039-512D-403D-B546-BDD1A3C95F96
+[debug] [WebDriverAgent] Sim: Mar 17 17:09:30 yuxius-MB CoreSimulatorBridge[62363]: [Common] [FBSSystemService][0x3a0a] Sending request to open "com.apple.test.WebDriverAgentRunner-Runner"
+[debug] [WebDriverAgent] Sim: Mar 17 17:09:30 yuxius-MB CoreSimulatorBridge[62363]: [Common] [FBSSystemService][0x3a0a] Request successful: <FBSProcessHandle: 0x7f9f0e601b80; XCTRunner:79205; valid: YES>
+[debug] [WebDriverAgent] Sim: Mar 17 17:09:30 yuxius-MB CoreSimulatorBridge[62363]: Launch successful for 'com.apple.test.WebDriverAgentRunner-Runner'
+[debug] [WebDriverAgent] Sim: Mar 17 17:09:30 yuxius-MB XCTRunner[79205]: assertion failed: 16C67 14C89: libxpc.dylib + 62677 [0339A402-6531-30E9-8BC2-589C463CD6D6]: 0x7d
+[debug] [WebDriverAgent] Sim: Mar 17 17:09:30 yuxius-MB XCTRunner[79205]: Running tests...
+[debug] [WebDriverAgent] Sim: Mar 17 17:09:31 yuxius-MB XCTRunner[79205]: Continuing to run tests in the background with task ID 1
+[debug] [WebDriverAgent] Sim: Mar 17 17:09:32 yuxius-MB XCTRunner[79205]: Built at Feb 21 2017 21:31:06
+[XCUITest] Detected that WebDriverAgent is running at url 'http://10.1.2.49:8100'
+[debug] [WebDriverAgent] Sim: Mar 17 17:09:32 yuxius-MB XCTRunner[79205]: ServerURLHere->http://10.1.2.49:8100<-ServerURLHere
+[XCUITest] WebDriverAgent started at url 'http://10.1.2.49:8100'
+[debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.showjoy.shop","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","capabilities":{"device":"iphone","browserName":"达人店","sdkVersion":"10.2","CFBundleIdentifier":"com.showjoy.shop"}},"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [XCUITest] Setting initial orientation to 'PORTRAIT'
+[debug] [JSONWP Proxy] Proxying [POST /orientation] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/orientation] with body: {"orientation":"PORTRAIT"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{},"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[Appium] New XCUITestDriver session created successfully, session 6bbef80e-0075-4f0d-919a-43dfa95f4fd8 added to master session list
+[debug] [MJSONWP] Responding to client with driver.createSession() result: {"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"appium-version":"1.6.3","platformName":"iOS","platformVersion":"10.2","deviceName":"iPhone 7","autoAcceptAlerts":true,"automationName":"xcuitest","newCommandTimeout":3600,"noReset":true,"app":"/Users/showjoy/Library/Developer/Xcode/DerivedData/DaRenShop-aisxxdloxwxcqmdjhesjxorxojoc/Build/Products/Debug-iphonesimulator/DaRenShop.app"}
+[HTTP] <-- POST /wd/hub/session 200 25984 ms - 605 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"id","value":"Allow"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["id","Allow","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"id","value":"Allow"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 371 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"id","value":"Allow"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["id","Allow","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"id","value":"Allow"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 378 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"id","value":"Allow"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["id","Allow","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"id","value":"Allow"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 381 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"id","value":"Allow"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["id","Allow","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"id","value":"Allow"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 250 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"id","value":"“达人店” Would Like to Send You Notifications"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["id","“达人店” Would Like to Send You Notifications","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"id","value":"“达人店” Would Like to Send You Notifications"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 259 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"id","value":"“达人店” Would Like to Send You Notifications"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["id","“达人店” Would Like to Send You Notifications","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"id","value":"“达人店” Would Like to Send You Notifications"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 250 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"id","value":"“达人店” Would Like to Send You Notifications"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["id","“达人店” Would Like to Send You Notifications","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"id","value":"“达人店” Would Like to Send You Notifications"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 265 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"id","value":"“达人店” Would Like to Send You Notifications"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["id","“达人店” Would Like to Send You Notifications","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"id","value":"“达人店” Would Like to Send You Notifications"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 252 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[1]"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeOther/XCUIElementTypeTextField[1]","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[1]"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 574 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[1]"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeOther/XCUIElementTypeTextField[1]","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[1]"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 381 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[1]"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeOther/XCUIElementTypeTextField[1]","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[1]"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 395 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"name","value":"完成"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","完成","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"name","value":"完成"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 260 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"name","value":"完成"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","完成","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"name","value":"完成"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 258 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"name","value":"完成"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","完成","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"name","value":"完成"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 256 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"name","value":"完成"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","完成","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"name","value":"完成"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 252 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[2]"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeOther/XCUIElementTypeTextField[2]","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[2]"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 421 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[2]"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeOther/XCUIElementTypeTextField[2]","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[2]"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 367 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[2]"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeOther/XCUIElementTypeTextField[2]","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeTextField[2]"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 382 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"name","value":"完成"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","完成","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"name","value":"完成"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 288 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"name","value":"完成"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","完成","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"name","value":"完成"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 254 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"name","value":"完成"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","完成","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"name","value":"完成"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 246 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"name","value":"完成"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","完成","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"name","value":"完成"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 261 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"name","value":"登录"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","登录","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"name","value":"登录"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 261 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"name","value":"登录"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","登录","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"name","value":"登录"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 257 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"name","value":"登录"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","登录","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"name","value":"登录"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 260 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"name","value":"登录"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","登录","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"name","value":"登录"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 306 ms - 74 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[4]"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[4]","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"xpath","value":"//XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[4]"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"5FD6BAE2-C854-468B-BE40-A83C0BFEF985","type":"XCUIElementTypeOther","label":"tabbarItem"}],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"5FD6BAE2-C854-468B-BE40-A83C0BFEF985","type":"XCUIElementTypeOther","label":"tabbarItem"}]
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 705 ms - 175 
+[HTTP] --> GET /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/element/5FD6BAE2-C854-468B-BE40-A83C0BFEF985/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/element/5FD6BAE2-C854-468B-BE40-A83C0BFEF985/displayed] to [GET http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/element/5FD6BAE2-C854-468B-BE40-A83C0BFEF985/displayed] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : true,\n  \"sessionId\" : \"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4 with 6bbef80e-0075-4f0d-919a-43dfa95f4fd8
+[HTTP] <-- GET /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/element/5FD6BAE2-C854-468B-BE40-A83C0BFEF985/displayed 200 140 ms - 76 
+[HTTP] --> GET /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/screenshot] to [GET http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAd3xQ+a7kYAAEAASURBVHgB\\r\\n7J2H221VdfXzT30q0lVQUBEElN6lCYKCojRBsWNXrJgYo7HGnth7S+y9t1iSWGNL\\r\\nolH3N8Ycc6w11zr7vPe9lyLm8TzPZPW19zmX+97fGe9Yc\\/\\/VmRfcuDDOuuCpEWei\\r\\n3IjzNedMlgjOdZ1zo53rWr3Ordc4H\\/O5R+zTr1v3ZF375HVzb1\\/L421N7q\\/3Mt5\\/\\r\\nv5b21L6ao31W3lu5XrzP+t7yfekz0uehOf1efX\\/z56j75WfXP786V+NlT18rPqv8\\r\\nTEpf+7No99vvIa7NuR7jHqVdr6U\\/i\\/x8vD\\/Xlfts+3i\\/Wuaa9l7iOnwfucd5qCPO\\r\\nij97XIf9pU\\/\\/Lz1F\\/0\\/4+udtts9AXwTmtPq57GM7g22E9\\/e83n4y5macixJxJvY9\\r\\nM+unY63iySgd2pP7nvEgrsEclBHsiyhzH5TzPAflaS2eFHWvZ3\\/Uz0E\\/o81D\\/zlY\\r\\nV+L0s9E++4nLqecoYj7XoK\\/2n8o5GaedjfGznrScelb2sUScwsCYgnWF151y9hMw\\r\\n5wladybGzkR7ilPZxj4nt3gC6ogzH9\\/jjMcvpzCiD2OoR2Ct5uW+6D+JgXmMk8\\/g\\r\\n3CcsJ53+uIiTz0CJ8ProjzWPW05E\\/4mnP15xGsrT2GbckIH6aag70O99WbL\\/hIjH\\r\\noXSg79QMrzv1sejr8UDUH3gK5jAwl22Nsz4H5zoeE\\/UT0H4A4+Te\\/4BTHoN2DY6j\\r\\nfdL1CtQfiDge7YiTUSIekNH6c\\/wBJ3FuD+5z3...
+[JSONWP Proxy] Replacing sessionId 198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4 with 6bbef80e-0075-4f0d-919a-43dfa95f4fd8
+[HTTP] <-- GET /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/screenshot 200 105 ms - 824102 
+[HTTP] --> GET /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/screenshot] to [GET http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAd3xQ+a7kYAAEAASURBVHgB\\r\\n7J2H221VdfXzT30q0lVQUBEElN6lCYKCojRBsWNXrJgYo7HGnth7S+y9t1iSWGNL\\r\\nolH3N8Ycc6w11zr7vPe9lyLm8TzPZPW19zmX+97fGe9Yc\\/\\/VmRfcuDDOuuCpEWei\\r\\n3IjzNedMlgjOdZ1zo53rWr3Ordc4H\\/O5R+zTr1v3ZF375HVzb1\\/L421N7q\\/3Mt5\\/\\r\\nv5b21L6ao31W3lu5XrzP+t7yfekz0uehOf1efX\\/z56j75WfXP786V+NlT18rPqv8\\r\\nTEpf+7No99vvIa7NuR7jHqVdr6U\\/i\\/x8vD\\/Xlfts+3i\\/Wuaa9l7iOnwfucd5qCPO\\r\\nij97XIf9pU\\/\\/Lz1F\\/0\\/4+udtts9AXwTmtPq57GM7g22E9\\/e83n4y5macixJxJvY9\\r\\nM+unY63iySgd2pP7nvEgrsEclBHsiyhzH5TzPAflaS2eFHWvZ3\\/Uz0E\\/o81D\\/zlY\\r\\nV+L0s9E++4nLqecoYj7XoK\\/2n8o5GaedjfGznrScelb2sUScwsCYgnWF151y9hMw\\r\\n5wladybGzkR7ilPZxj4nt3gC6ogzH9\\/jjMcvpzCiD2OoR2Ct5uW+6D+JgXmMk8\\/g\\r\\n3CcsJ53+uIiTz0CJ8ProjzWPW05E\\/4mnP15xGsrT2GbckIH6aag70O99WbL\\/hIjH\\r\\noXSg79QMrzv1sejr8UDUH3gK5jAwl22Nsz4H5zoeE\\/UT0H4A4+Te\\/4BTHoN2DY6j\\r\\nfdL1CtQfiDge7YiTUSIekNH6c\\/wBJ3FuD+5z3...
+[JSONWP Proxy] Replacing sessionId 198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4 with 6bbef80e-0075-4f0d-919a-43dfa95f4fd8
+[HTTP] <-- GET /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/screenshot 200 75 ms - 824102 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/element/5FD6BAE2-C854-468B-BE40-A83C0BFEF985/click {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/element/5FD6BAE2-C854-468B-BE40-A83C0BFEF985/click] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/element/5FD6BAE2-C854-468B-BE40-A83C0BFEF985/click] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"5FD6BAE2-C854-468B-BE40-A83C0BFEF985","value":"","sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4"}
+[JSONWP Proxy] Replacing sessionId 198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4 with 6bbef80e-0075-4f0d-919a-43dfa95f4fd8
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/element/5FD6BAE2-C854-468B-BE40-A83C0BFEF985/click 200 932 ms - 118 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements {"using":"name","value":"测试入口"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["name","测试入口","6bbef80e-0075-4f0d-919a-43dfa95f4fd8"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/elements] with body: {"using":"name","value":"测试入口"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"679F2775-742E-4C3D-B1B3-8D3CD172FE71","type":"XCUIElementTypeButton","label":"测试入口"}],"sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"679F2775-742E-4C3D-B1B3-8D3CD172FE71","type":"XCUIElementTypeButton","label":"测试入口"}]
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/elements 200 382 ms - 178 
+[HTTP] --> GET /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/element/679F2775-742E-4C3D-B1B3-8D3CD172FE71/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/element/679F2775-742E-4C3D-B1B3-8D3CD172FE71/displayed] to [GET http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/element/679F2775-742E-4C3D-B1B3-8D3CD172FE71/displayed] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : true,\n  \"sessionId\" : \"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4 with 6bbef80e-0075-4f0d-919a-43dfa95f4fd8
+[HTTP] <-- GET /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/element/679F2775-742E-4C3D-B1B3-8D3CD172FE71/displayed 200 260 ms - 76 
+[HTTP] --> GET /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/screenshot] to [GET http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAMdvlBWbQMAAEAASURBVHgB\\r\\n7L37ry1bdtfnv4aHMD9ht5HjKMJu20Qh+MVDCCwDcRAJciJibJEHQpAYO0psKSHE\\r\\nFn6ImCAlgB\\/dduMgYgO2++XYAoTdDwPBDqL73u6+j77Pvufsc1bqW2d+5hn7WzXW\\r\\nmLVWrb33OXdvad1vjTG+Y8wxZ1XN+u4665z7RZ\\/73OcO+rz6yquHz7\\/6+cPnP98+\\r\\nOp4+r7766vzpfuINF3HLIw5SBxt0\\/yuvvHLQZ+6p1Yz9eJw6+G8CX3755blHYTz2\\r\\nsYmDiq8d4xNGTvRf6vill1466JPVJw46Dz9IHBvM\\/C99bhpfn9YHyPWJDXqdjIcf\\r\\nJN\\/t2T+Njz9D8jU+5yieb\\/r67Gc\\/e9DnM5\\/5zKZPlpf5qf\\/Zz0zj6dPGdRueI\\/zu\\r\\nf3HqVx\\/rG96LL7x4eOGFFw6f\\/vSn7+RHva315\\/5PfepTB31e+PQ6\\/6bn5\\/2dOn5V\\r\\nx+PYL7744uHYZ74muDYaHuNvjVGfPGxwzY9Pc+D4WUfuu63zII99C5v71m33EweJ\\r\\nZ\\/X6\\/sK+A7L\\/GC7qGJ9xM6QfMOW1usSd3\\/tu\\/XWe5XU\\/82hx5kFdx0WejUMcJB\\/b\\r\\nkThIHBt0P32C8LDhO8JzrHhVnHqMjw16fmWT13Hj9eT1uS7w97qcfzuPxOGDmZ+4\\r\\nY8bP\\/OR\\/EQsp4S7xi4BGMCOIu\\/9euM+CLYq16hiR50IPP2IPhDfHX34q8olfAqMg\\r\\nXatPHHQOfpA4Npj574Rwn35p4H7IMM6D8+TnX3N...
+[JSONWP Proxy] Replacing sessionId 198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4 with 6bbef80e-0075-4f0d-919a-43dfa95f4fd8
+[HTTP] <-- GET /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/screenshot 200 72 ms - 355194 
+[HTTP] --> GET /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/screenshot] to [GET http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/screenshot] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAKbAAAAKAAAApsAAAKbAAMdvlBWbQMAAEAASURBVHgB\\r\\n7L37ry1bdtfnv4aHMD9ht5HjKMJu20Qh+MVDCCwDcRAJciJibJEHQpAYO0psKSHE\\r\\nFn6ImCAlgB\\/dduMgYgO2++XYAoTdDwPBDqL73u6+j77Pvufsc1bqW2d+5hn7WzXW\\r\\nmLVWrb33OXdvad1vjTG+Y8wxZ1XN+u4665z7RZ\\/73OcO+rz6yquHz7\\/6+cPnP98+\\r\\nOp4+r7766vzpfuINF3HLIw5SBxt0\\/yuvvHLQZ+6p1Yz9eJw6+G8CX3755blHYTz2\\r\\nsYmDiq8d4xNGTvRf6vill1466JPVJw46Dz9IHBvM\\/C99bhpfn9YHyPWJDXqdjIcf\\r\\nJN\\/t2T+Njz9D8jU+5yieb\\/r67Gc\\/e9DnM5\\/5zKZPlpf5qf\\/Zz0zj6dPGdRueI\\/zu\\r\\nf3HqVx\\/rG96LL7x4eOGFFw6f\\/vSn7+RHva315\\/5PfepTB31e+PQ6\\/6bn5\\/2dOn5V\\r\\nx+PYL7744uHYZ74muDYaHuNvjVGfPGxwzY9Pc+D4WUfuu63zII99C5v71m33EweJ\\r\\nZ\\/X6\\/sK+A7L\\/GC7qGJ9xM6QfMOW1usSd3\\/tu\\/XWe5XU\\/82hx5kFdx0WejUMcJB\\/b\\r\\nkThIHBt0P32C8LDhO8JzrHhVnHqMjw16fmWT13Hj9eT1uS7w97qcfzuPxOGDmZ+4\\r\\nY8bP\\/OR\\/EQsp4S7xi4BGMCOIu\\/9euM+CLYq16hiR50IPP2IPhDfHX34q8olfAqMg\\r\\nXatPHHQOfpA4Npj574Rwn35p4H7IMM6D8+TnX3N...
+[JSONWP Proxy] Replacing sessionId 198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4 with 6bbef80e-0075-4f0d-919a-43dfa95f4fd8
+[HTTP] <-- GET /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/screenshot 200 68 ms - 355194 
+[HTTP] --> POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/element/679F2775-742E-4C3D-B1B3-8D3CD172FE71/click {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/element/679F2775-742E-4C3D-B1B3-8D3CD172FE71/click] to [POST http://localhost:8100/session/198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4/element/679F2775-742E-4C3D-B1B3-8D3CD172FE71/click] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"679F2775-742E-4C3D-B1B3-8D3CD172FE71","value":"","sessionId":"198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4"}
+[JSONWP Proxy] Replacing sessionId 198D2CB1-E0CB-4DE2-8851-0DAE3B9543D4 with 6bbef80e-0075-4f0d-919a-43dfa95f4fd8
+[HTTP] <-- POST /wd/hub/session/6bbef80e-0075-4f0d-919a-43dfa95f4fd8/element/679F2775-742E-4C3D-B1B3-8D3CD172FE71/click 200 1002 ms - 118 
+[Appium] Received SIGINT - shutting down
+[XCUITest] Simulator log exited with code 'null'
+[XCUITest] xcodebuild exited with code 'null' and signal 'SIGINT'

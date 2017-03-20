@@ -1,0 +1,13 @@
+info sptt: after kill the load process, start the new one
+info 准备运行环境
+info sptt: get appium config in cloud
+info sptt: create a new client
+warn sptt: current element[Allow](id) is null, so click is not done
+warn sptt: current element[//XCUIElementTypeOther/XCUIElementTypeTextField[1]](xpath) is null, so type action is not done
+warn sptt: current element[完成](name) is null, so click is not done
+warn sptt: current element[//XCUIElementTypeOther/XCUIElementTypeTextField[2]](xpath) is null, so type action is not done
+warn sptt: current element[完成](name) is null, so click is not done
+warn sptt: current element[登录](name) is null, so click is not done
+info sptt: begin click element[//XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[4]](xpath)
+info sptt: begin click element[测试入口](name)
+info sptt: sleeping 1000ms
