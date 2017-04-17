@@ -26,6 +26,7 @@
     "mochawesome": "^2.0.4",
     "monocle-js": "^1.0.2",
     "npmlog": "^4.0.2",
+    "redis": "^2.7.1",
     "request": "^2.79.0",
     "shelljs": "^0.7.6",
     "unorm": "^1.4.1",
