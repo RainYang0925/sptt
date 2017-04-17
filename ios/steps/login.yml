@@ -1,9 +1,0 @@
----
-LoginSteps:
-  login:
-    - LoginAtoms | start notification alert
-    - LoginAtoms | input username
-    - LoginAtoms | hide keybord
-    - LoginAtoms | input password
-    - LoginAtoms | hide keybord
-    - LoginAtoms | login(optional)
